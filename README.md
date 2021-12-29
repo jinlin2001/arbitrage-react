@@ -1,12 +1,12 @@
 ### App Overview
 
-This web app outputs the potential currency exchanges that has a profit. Exchange sequences are generated based on daily rates published by Frankfurter API.
+This web application fetches currency exchange rates from Frankfurter API. Response data is then parsed and analyzed to solve arbitrage profit opportunities.
 
-Frankfurter API tracks 33 world known currency exchange rates published by the European Central Bank. According to the API documentation, exchange rates are updated daily around 4 PM Central Eastern Time.
+Frankfurter API tracks 33 world-recognized currencies published by the European Central Bank. According to the API documentation, exchange rates are updated daily around 4 PM central-eastern time.
 
-Other app features include filtering data, editing data, importing and parsing data in file. App scripts are trans-piled targeting latest browsers. Internet Explorer is not supported.
+Other application features include filtering, edit, and importing data in JSON files. Application scripts are trans-piled targeting the latest browsers. Internet Explorer is not supported.
 
-Support importing and parsing file with data structure like the following sample.
+Support import JSON files with a data structure like the following sample.
 
     {
       "USD": {
@@ -31,5 +31,5 @@ Support importing and parsing file with data structure like the following sample
 
 ![screenshot 2](https://github.com/jinlin2001/portfolio/blob/main/public/arbit-2.png)
 
-Live app:  
+Live App:  
 [https://arbitrage-43861.firebaseapp.com/](https://arbitrage-43861.firebaseapp.com/)
