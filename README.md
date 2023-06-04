@@ -31,5 +31,3 @@ Support import JSON files with a data structure like the following sample.
 
 ![screenshot 2](https://github.com/jinlin2001/portfolio/blob/main/public/arbit-2.png)
 
-Live App:  
-[https://arbitrage-43861.firebaseapp.com/](https://arbitrage-43861.firebaseapp.com/)
